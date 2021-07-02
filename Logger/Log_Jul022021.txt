@@ -1,0 +1,93 @@
+#
+7/2/2021 3:27:38 PM
+On Action Executing UserName : abc Token:abc
+#
+7/2/2021 3:27:44 PM
+User is not Authorized UserName : abc Token:abc
+#
+7/2/2021 3:30:25 PM
+On Action Executing UserName : abc Token:abc
+#
+7/2/2021 3:30:25 PM
+User is not Authorized UserName : abc Token:abc
+#
+7/2/2021 3:31:04 PM
+On Action Executing UserName : abc Token:abc
+#
+7/2/2021 3:31:04 PM
+User is not Authorized UserName : abc Token:abc
+#
+7/2/2021 3:31:34 PM
+On Action Executing UserName : abc Token:abc
+#
+7/2/2021 3:31:34 PM
+User is not Authorized UserName : abc Token:abc
+#
+7/2/2021 3:32:04 PM
+On Action Executing UserName : abc Token:abc
+#
+7/2/2021 3:32:04 PM
+User is not Authorized UserName : abc Token:abc
+#
+7/2/2021 3:32:20 PM
+On Action Executing UserName : abc Token:abc
+#
+7/2/2021 3:34:34 PM
+On Action Executing UserName : abc Token:abc
+#
+7/2/2021 3:34:34 PM
+OnActionExecuted Response  : http://localhost:52342/api/values
+#
+7/2/2021 3:34:36 PM
+OnActionExecuted Response  : OK
+7/2/2021 3:37:58 PM  On Action Executing Authorized UserName : abc Token:123
+7/2/2021 3:37:58 PM  OnActionExecuted Response  : http://localhost:52342/api/values
+7/2/2021 3:38:01 PM  OnActionExecuted Response  : OK
+7/2/2021 3:39:29 PM  On Action Executing Authorized UserName : abc
+7/2/2021 3:39:29 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 3:39:31 PM  OnActionExecuted Response  : OK
+7/2/2021 3:39:54 PM  User is not Authorized UserName : abc
+7/2/2021 3:39:54 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 3:41:08 PM  User is not Authorized UserName : abc
+7/2/2021 3:41:08 PM  OnActionExecuted Response  : Unauthorized
+7/2/2021 3:41:08 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 3:41:56 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 3:41:56 PM  User is not Authorized UserName : abc
+7/2/2021 3:41:56 PM  OnActionExecuted Response  : Unauthorized
+7/2/2021 3:43:07 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 3:43:07 PM  On Action Executing Authorized UserName : abc
+7/2/2021 3:43:14 PM  OnActionExecuted Response  : OK
+7/2/2021 3:43:29 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 3:43:29 PM  User is not Authorized UserName : abc
+7/2/2021 3:43:29 PM  OnActionExecuted Response  : Unauthorized
+7/2/2021 4:15:26 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 4:15:26 PM  User is not Authorized UserName : abc
+7/2/2021 4:15:26 PM  OnActionExecuted Response  : Unauthorized
+7/2/2021 4:15:53 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 4:15:53 PM  User is not Authorized UserName : abc
+7/2/2021 4:15:53 PM  OnActionExecuted Response  : Unauthorized
+7/2/2021 4:18:44 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 4:18:44 PM  User is not Authorized UserName : abc
+7/2/2021 4:18:44 PM  OnActionExecuted Response  : Unauthorized
+7/2/2021 4:23:13 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 4:23:13 PM  User is not Authorized UserName : abc
+7/2/2021 4:23:13 PM  OnActionExecuted Response  : Unauthorized
+7/2/2021 4:23:50 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 4:23:50 PM  User is not Authorized UserName : abc
+7/2/2021 4:23:50 PM  OnActionExecuted Response  : Unauthorized
+7/2/2021 4:37:38 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 4:37:38 PM  User is not Authorized UserName : abc
+7/2/2021 4:37:38 PM  OnActionExecuted Response  : Unauthorized
+7/2/2021 4:45:45 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 4:45:45 PM  User is not Authorized UserName : abc
+7/2/2021 4:45:45 PM  OnActionExecuted Response  : Unauthorized
+7/2/2021 5:01:58 PM  Request Received : {"SearchContract":{"SearchTerm":null,"PageNumber":1,"PageSize":20,"Active":"false"}}
+7/2/2021 5:02:00 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 5:02:00 PM  User is not Authorized UserName : abc
+7/2/2021 5:02:00 PM  OnActionExecuted Response  : Unauthorized
+7/2/2021 5:02:19 PM  Response Received : Unauthorized User
+7/2/2021 5:02:46 PM  Request Received : {"SearchContract":{"SearchTerm":null,"PageNumber":1,"PageSize":20,"Active":"false"}}
+7/2/2021 5:02:48 PM  OnActionExecuted Request  : http://localhost:52342/api/values
+7/2/2021 5:02:48 PM  On Action Executing Authorized UserName : abc
+7/2/2021 5:02:51 PM  OnActionExecuted Response  : OK
+7/2/2021 5:02:56 PM  Response Received : ["value1","value2"]
